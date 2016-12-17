@@ -1,8 +1,8 @@
 <!doctype html>
 <html>
-
 <head>
     <title>X-Wing Rules of Engagement</title>
+
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 
@@ -15,7 +15,6 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 </head>
-
 <body>
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -133,65 +132,606 @@
             </section>
             <section>
                 <h3>Aquire A Target Lock</h3>
-                <p></p>
                 <p>
-                    <strong>Related Topics</strong>:
+                    Ships with the <i class="xwing-miniatures-font xwing-miniatures-font-targetlock"></i> icon in their action bar may
+                    perform the <strong>Acquire A Target Lock</strong> action to
+                    acquire a target lock on an enemy ship at Range 1-3.
+                    While attacking, a ship can spend a target lock that it
+                    has on the defender to reroll any number of its attack
+                    dice
+                </p>
+                <p>
+                    A target lock consists of a red target lock token and
+                    a blue target lock token displaying the same letter.
+                    When a target lock is acquired, assign the blue
+                    target lock token to the ship performing the action
+                    (the locking ship), and assign the red target lock
+                    token on the target (the locked ship).
+                </p>
+                <p>
+                    Target locks are not removed during the End phase.
+                </p>
+                <p>
+                    A ship can maintain one target lock. If a ship acquires
+                    a new target lock, it must remove its old target lock.
+                </p>
+                <ul>
+                    <li>
+                        A ship that does not have the <i class="xwing-miniatures-font xwing-miniatures-font-targetlock"></i> icon in its
+                        action bar can acquire and maintain a target lock
+                        granted by another game effect.
+                    </li>
+                    <li>
+                        If a ship spends a target lock as part of the cost
+                        of an ability, that target lock does not also allow
+                        the ship to reroll attack dice.
+                    </li>
+                    <li>
+                        If a player declares an acquire a target lock
+                        action for his ship and the enemy ship he wants
+                        to lock is not at range, he may choose a different
+                        ship to lock or a different action entirely
+                    </li>
+                    <li>
+                        If an ability instructs a ship to "acquire a target
+                        lock," this is different than performing an acquire
+                        a target lock action. The ship acquires the target
+                        lock without performing an action, and it may do
+                        so even if it has already performed the acquire a
+                        target lock action this round.
+                    </li>
+                    <li>
+                        A ship can acquire a new target lock on a ship
+                        that it already has locked; the old target lock is
+                        removed.
+                    </li>
+                    <li>
+                        A ship can spend a target lock and choose not to
+                        reroll any dice.
+                    </li>
+                    <li>
+                        If an effect removes a blue or red target lock
+                        token from a ship, the matching red or blue
+                        target lock token is also removed (unless the blue
+                        target lock is assigned to another ship).
+                    </li>
+                    <li>
+                        A ship can be locked by more than one enemy ship.
+                    </li>
+                </ul>
+                <p>
+                    <strong>Related Topics</strong>: Actions, Attack
                 </p>
             </section>
             <section>
                 <h3>Actions</h3>
-                <p></p>
                 <p>
-                    <strong>Related Topics</strong>:
+                    The active ship can perform one standard action
+                    during the "Perform Action" step of the Activation
+                    phase. Ships can also perform free actions as
+                    instructed by cards or mission rules. The actions
+                    available to each ship are listed in that ship's action
+                    bar.
+                </p>
+                <ul>
+                    <li>
+                        As an action, a ship may resolve an ability
+                        beginning with the "<strong>Action:</strong>" header on one of its
+                        Upgrade or Damage cards.
+                    </li>
+                    <li>
+                        A ship cannot perform actions, even free actions,
+                        while stressed.
+                    </li>
+                    <li>
+                        A ship must skip its "Perform Action" step if
+                        it overlapped another ship while executing a maneuver.
+                    </li>
+                    <li>
+                        A ship cannot perform the same action more
+                        than once during a single round, even if one or
+                        more of the actions are free actions.
+                        <ul>
+                            <li>
+                                If a ship has more than one copy of the same
+                                Damage or Upgrade card, it still cannot
+                                perform the action described on those cards
+                                more than once per round.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        If a card ability or mission effect grants a ship
+                        a free action for which it does not have the
+                        matching action icon in its action bar, it may still
+                        perform that action.
+                    </li>
+                    <li>
+                        A ship can choose not to perform an action
+                        during the "Perform Action" step or when granted
+                        a free action.
+                    </li>
+                </ul>
+                <p>
+                    <strong>Related Topics</strong>: Acquire a Target Lock,
+                    Barrel Roll, Boost, Cloak&dagger;, Evade, Focus, Free Actions,
+                    Overlapping Ships, Stress
                 </p>
             </section>
             <section>
                 <h3>Activation Phase</h3>
-                <p></p>
                 <p>
-                    <strong>Related Topics</strong>:
+                    During the Activation phase, each ship is activated
+                    one at a time, starting with the ship with the lowest
+                    pilot skill and continuing in ascending order. Each ship
+                    resolves the following steps in order:
+                </p>
+                <ol>
+                    <li>
+                        <strong>Reveal Dial:</strong> Reveal the ship's dial and take
+                        the maneuver template that matches the chosen
+                        maneuver.
+                    </li>
+                    <li>
+                        <strong>Execute Maneuver:</strong> Resolve the following
+                        substeps in order:
+                        <ol>
+                            <li>
+                                <strong>Move Ship:</strong> Slide the maneuver template
+                                between the front guides of the ship's base
+                                so that it is flush against the base. Then pick
+                                up the ship and place it at the opposite end
+                                of the template, sliding the rear guides of the
+                                base into the opposite end of the template.
+                            </li>
+                            <li>
+                                <strong>Check Pilot Stress:</strong> If the maneuver is
+                                red, assign one stress token to the ship; if
+                                the maneuver is green, remove one stress
+                                token from the ship.
+                            </li>
+                            <li>
+                                <strong>Clean Up:</strong> Return the maneuver template
+                                to the pile of maneuver templates. Place the
+                                revealed dial outside the play area next to
+                                the ship's Ship card.
+                            </li>
+                        </ol>
+                    </li>
+                    <strong>Perform Action:</strong> The ship may perform one action.
+                    <li>
+                </ol>
+                <ul>
+                    <li>
+                         If a player has multiple ships with the same pilot
+                         skill value, he can activate them in any order
+                    </li>
+                    <li>
+                         If both players have ships with the same pilot skill
+                         value, the player with initiative activates all of his
+                         ships first.
+                    </li>
+                    <li>
+                        A stressed ship cannot execute red maneuvers
+                        or perform actions. If a stressed ship reveals a
+                        red maneuver, the opposing player chooses any
+                        non-red maneuver on that ship's dial for that ship
+                        to execute
+                    </li>
+                    <li>
+                        When an ability instructs a ship to execute a
+                        specific maneuver, it resolves only the "Execute
+                        Maneuver" step.
+                    </li>
+                    <li>
+                        Each ship becomes the active ship only once
+                        during this phase.
+                    </li>
+                    <li>
+                        When a ship executes a maneuver, it is picked
+                        up from its starting position and placed in its
+                        final position. The full width of the ship's base is
+                        ignored except in its starting and final positions.
+                    </li>
+                    <li>
+                        If a ship does not reveal a maneuver dial when it
+                        becomes the active ship during this phase, such
+                        as due to the effect of being ionized, it does not
+                        trigger any abilities related to maneuver dials.
+                    </li>
+                </ul>
+                <p>
+                    <strong>Related Topics</strong>: Actions, Initiative, Maneuver,
+                    Obstacles, Overlapping Ships, Pilot Skill, Stress
                 </p>
             </section>
             <section>
                 <h3>Active Ship</h3>
-                <p></p>
                 <p>
-                    <strong>Related Topics</strong>:
+                    The ship that is currently resolving the Activation or
+                    Combat phase is the active ship.
+                </p>
+                <p>
+                    <strong>Related Topics</strong>: Activation Phase, Combat Phase
+                </p>
+            </section>
+            <section>
+                <h3>Agility</h3>
+                <p>
+                    A ship's agility is the green number on its Ship card.
+                    It indicates the number of defense dice the ship rolls
+                    when defending.
+                </p>
+                <ul>
+                    <li>
+                        A ship with an agility value of "0" can still roll
+                        additional defense dice granted by range combat
+                        bonuses, obstructed attacks, card abilities, etc.
+                    </li>
+                    <li>
+                        All modifiers to agility are cumulative. After all
+                        modifiers have been applied, if a ship's agility
+                        value is less than "0," it is treated as "0."
+                    </li>
+                </ul>
+                <p>
+                    <strong>Related Topics</strong>: Attack
                 </p>
             </section>
             <section>
                 <h3>Attack</h3>
-                <p></p>
                 <p>
-                    <strong>Related Topics</strong>:
+                    A ship can perform one attack when it becomes the
+                    active ship during the Combat phase. To perform an
+                    attack, the ship resolves the following steps in order:
+                </p>
+                <ol>
+                    <li>
+                        <strong>Declare Target</strong>: The attacker may measure
+                        range to any number of enemy ships and check
+                        which enemy ships are inside his firing arc. Then
+                        the attacker chooses one of his weapons to
+                        attack with. Then he chooses one enemy ship to
+                        be the target and pays any costs required for the
+                        attack.
+                        <ul>
+                            <li>
+                                If attacking with a primary weapon, the target
+                                must be inside the attacker's firing arc and at
+                                Range 1-3.
+                            </li>
+                            <li>
+                                If attacking with a turret primary weapon, the
+                                target must be at Range 1-3 but does not need
+                                to be inside firing arc.
+                            </li>
+                            <li>
+                                If attacking with a secondary weapon, the target
+                                must be inside the attacker's firing arc (unless
+                                otherwise specified) and at the weapon range
+                                indicated on the weapon's Upgrade card.
+                            </li>
+                            <li>
+                                If there is no valid target for the chosen weapon,
+                                or if the attacker cannot pay any costs required
+                                for the attack, the attacker may choose a
+                                different weapon and target.
+                            </li>
+                            <li>
+                                After a valid weapon and target are chosen
+                                and any indicated costs are paid, the target is
+                                considered to be the defender.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Roll Attack Dice</strong>: The attacker rolls a
+                        number of attack dice equal to its primary
+                        weapon value; if it is attacking with a secondary
+                        weapon, it rolls attack dice equal to the attack
+                        value on that weapon's Upgrade card instead.
+                        <ul>
+                            <li>
+                                The attacker resolves any card abilities that allow
+                                him to roll additional or fewer attack dice.
+                            </li>
+                            <li>
+                                If attacking at Range 1 with its primary weapon,
+                                the attacker rolls one additional attack die.
+                            </li>
+                            <li>
+                                 All additions or subtractions to the number of
+                                 attack dice being rolled occur before the player
+                                 rolls the attack dice.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Modify Attack Dice</strong>: The defender can
+                        resolve any card abilities that allow him to modify
+                        the attack dice. Then the attacker can modify his
+                        attack dice in one or more of the following ways
+                        as many times as possible:
+                        <ul>
+                            <li>
+                                <strong>Focus</strong>: The attacker can spend a focus token to
+                                change all of his <i class="xwing-miniatures-font xwing-miniatures-font-focus"></i> results to <i class="xwing-miniatures-font xwing-miniatures-font-hit"></i> results.
+                            </li>
+                            <li>
+                                <strong>Target Lock</strong>: The attacker can spend a target
+                                lock he has on the defender to reroll any number
+                                of his attack dice.
+                            </li>
+                            <li>
+                                <strong>Card Ability</strong>: The attacker can resolve a card
+                                ability that modifies attack dice and that he has
+                                not already resolved during this attack.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Roll Defense Dice</strong>: The defender rolls a
+                        number of defense dice equal to its agility value.
+                        <ul>
+                            <li>
+                                The defender resolves any card abilities that
+                                allow him to roll additional or fewer defense dice.
+                            </li>
+                            <li>
+                                If defending at Range 3 against a primary weapon
+                                attack, the defender rolls one additional defense
+                                die.
+                            </li>
+                            <li>
+                                If the attack is obstructed, the defender rolls one
+                                additional defense die.
+                            </li>
+                            <li>
+                                All additions or subtractions to the number of
+                                defense dice being rolled occur before the player
+                                rolls the defense dice.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Modify Defense Dice</strong>: The attacker can
+                        resolve any card abilities that allow him to modify
+                        the defense dice. Then the defender can modify
+                        his defense dice in one or more of the following
+                        ways as many times as possible:
+                        <ul>
+                            <li>
+                                <strong>Focus</strong>: The defender can spend a focus token to
+                                change all of his <i class="xwing-miniatures-font xwing-miniatures-font-focus"></i> results to <i class="xwing-miniatures-font xwing-miniatures-font-evade"></i> results.
+                            </li>
+                            <li>
+                                <strong>Evade</strong>: The defender can spend an evade token
+                                to add one <i class="xwing-miniatures-font xwing-miniatures-font-evade"></i> result to his defense roll.
+                            </li>
+                            <li>
+                                <strong>Card Ability</strong>: The defender can resolve a card
+                                ability that modifies defense dice and that he has
+                                not already resolved during this attack.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Compare Results</strong>: For each <i class="xwing-miniatures-font xwing-miniatures-font-evade"></i> result, the
+                        defender cancels one <i class="xwing-miniatures-font xwing-miniatures-font-hit"></i> or <i class="xwing-miniatures-font xwing-miniatures-font-crit"></i> result. All <i class="xwing-miniatures-font xwing-miniatures-font-hit"></i>
+                        results must be canceled before any <i class="xwing-miniatures-font xwing-miniatures-font-crit"></i> results
+                        may be canceled. If at least one <i class="xwing-miniatures-font xwing-miniatures-font-hit"></i> or <i class="xwing-miniatures-font xwing-miniatures-font-crit"></i> result
+                        remains uncanceled, the defender is hit by the
+                        attack; otherwise, the attack misses.
+                    </li>
+                    <li>
+                        <strong>Deal Damage</strong>: If the defender was hit,
+                        it suffers one damage for each uncanceled
+                        <i class="xwing-miniatures-font xwing-miniatures-font-hit"></i> result and one critical damage for each
+                        uncanceled <i class="xwing-miniatures-font xwing-miniatures-font-crit"></i> result. All damage must be
+                        suffered before any critical damage may be
+                        suffered.
+                        <ul>
+                            <li>
+                                A ship cannot attack a friendly ship.
+                            </li>
+                            <li>
+                                A ship may choose not to perform its attack
+                                during the Combat phase, but during an attack,
+                                a ship cannot choose to roll no dice when it is
+                                supposed to roll dice.
+                            </li>
+                            <li>
+                                If players would roll more dice than the maximum
+                                number that they have available, keep track of
+                                the rolled results and reroll the dice necessary to
+                                equal the total number of dice the player would
+                                have rolled all at once. Note that these dice
+                                are not considered rerolled for the purposes of
+                                modifying dice.
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+                <p>
+                    <strong>Related Topics</strong>: Agility, Damage, Destroying
+                    Ships, Hull, Firing Arc, Modifying Dice, Obstructed,
+                    Pilot Skill, Primary Weapon, Range, Range Combat
+                    Bonus, Secondary Weapons, Shields, Simultaneous
+                    Attack Rule, Turret Primary Weapon&dagger;
                 </p>
             </section>
             <section>
                 <h3>Attacker</h3>
-                <p></p>
                 <p>
-                    <strong>Related Topics</strong>:
+                    The ship that is performing an attack is the attacker.
+                </p>
+                <p>
+                    <strong>Related Topics</strong>: Attack, Combat Phase, Defender
                 </p>
             </section>
             <section>
                 <h3>Auxiliary Firing Arc</h3>
-                <p></p>
                 <p>
-                    <strong>Related Topics</strong>:
+                    Some ships have an auxiliary firing arc identified by
+                    dotted lines printed on its ship token. These ships
+                    also have a unique primary weapon icon printed on
+                    their Ship cards. When attacking with its primary
+                    weapon, a ship with this icon may attack an enemy
+                    ship that is at Range 1-3 and inside its standard or
+                    auxiliary firing arc.
+                </p>
+                <ul>
+                    <li>
+                        When attacking with a secondary weapon, the
+                        ship must still target an enemy ship inside its
+                        standard firing arc (unless otherwise specified on
+                        the Upgrade card).
+                    </li>
+                </ul>
+                <p>
+                    <strong>Related Topics</strong>:  Attack, Firing Arc, Primary
+                    Weapon, Range, Secondary Weapons
                 </p>
             </section>
             <section>
                 <h3>Barrel Roll</h3>
-                <p></p>
                 <p>
-                    <strong>Related Topics</strong>:
+                    Ships with the <i class="xwing-miniatures-font xwing-miniatures-font-barrelroll"></i> icon in their action bar may
+                    perform the barrel roll action to move laterally and
+                    adjust their position. To perform a barrel roll with a
+                    small ship, follow these steps:
+                </p>
+                <ol>
+                    <li>
+                        Take the [<i class="xwing-miniatures-font xwing-miniatures-font-straight"></i> 1] maneuver template.
+                    </li>
+                    <li>
+                        Place one end of the template against the left or
+                        right side of the ship's base. The template cannot
+                        be placed beyond the front or back edges of the
+                        base.
+                    </li>
+                    <li>
+                        Lift the ship off the play surface, then place
+                        the ship at the other end of the template. The
+                        template cannot be beyond the front or back
+                        edges of the ship's base, and the ship must face
+                        in the same direction as before the barrel roll.
+                    </li>
+                </ol>
+                <ul>
+                    <li>
+                        A ship cannot barrel roll if it would overlap
+                        another ship or an obstacle token, or if the
+                        maneuver template would overlap an obstacle
+                        token.
+                    </li>
+                    <li>
+                        A ship cannot barrel roll if this would cause the
+                        ship to flee the battlefield.
+                    </li>
+                    <li>
+                        When a player declares a barrel roll action for
+                        his ship, he must also declare whether the ship
+                        is barrel rolling to the left or to the right before
+                        placing the maneuver template on the play area.
+                    </li>
+                    <li>
+                        If a player declares a barrel roll action for his
+                        ship and cannot complete the action in the
+                        desired direction, he may choose a different
+                        direction or a different action entirely
+                    </li>
+                    <li>
+                        Performing a barrel roll does not count as
+                        executing a maneuver.
+                    </li>
+                    <li>
+                        Large ships barrel roll as described in the "Large
+                        Ship" glossary entry on page 13.
+                    </li>
+                </ul>
+                <p>
+                    <strong>Related Topics</strong>:  Actions, Fleeing the Battlefield,
+                    Large Ship&dagger;, Maneuver, Obstacles
                 </p>
             </section>
             <section>
                 <h3>Bearing</h3>
-                <p></p>
                 <p>
-                    <strong>Related Topics</strong>:
+                </p>
+                <ul>
+                    <li>
+                        <strong>Straight</strong>: The straight (<i class="xwing-miniatures-font xwing-miniatures-font-straight"></i>) bearing advances a
+                        ship straight forward.
+                    </li>
+                    <li>
+                        <strong>Bank</strong>: The left bank (<i class="xwing-miniatures-font xwing-miniatures-font-bankleft"></i>) and right bank (<i class="xwing-miniatures-font xwing-miniatures-font-bankright"></i>)
+                        bearings advance a ship at a shallow curve to one
+                        side, changing its facing by 45&deg;.
+                    </li>
+                    <li>
+                        <strong>Turn</strong>: The left turn (<i class="xwing-miniatures-font xwing-miniatures-font-turnleft"></i>) and right turn (<i class="xwing-miniatures-font xwing-miniatures-font-turnright"></i>)
+                        bearings advance a ship at a tight curve to one
+                        side, changing its facing by 90&deg;.
+                    </li>
+                    <li>
+                        <strong>Koiogran Turn</strong>: The Koiogran turn (<i class="xwing-miniatures-font xwing-miniatures-font-kturn"></i>) bearing
+                        advances a ship straight forward, changing its
+                        facing by 180&deg;. To achieve this facing, the player
+                        slides the ship's front guides into the end of the
+                        maneuver template instead of the rear guides.
+                    </li>
+                    <li>
+                        <strong>Segnor's Loop</strong>: The Segnor's Loop left (<i class="xwing-miniatures-font xwing-miniatures-font-sloopleft"></i>)
+                        and Segnor's Loop right (<i class="xwing-miniatures-font xwing-miniatures-font-sloopright"></i>) bearings advance a
+                        ship at a shallow curve to one side, changing its
+                        facing by 225&deg;. To achieve this facing, the player
+                        slides the ship's front guides into the end of the
+                        maneuver template instead of the rear guides.
+                    </li>
+                    <li>
+                        <strong>Tallon Roll</strong>: The Tallon Roll left (<i class="xwing-miniatures-font xwing-miniatures-font-trollleft"></i>) and Tallon
+                        Roll right (<i class="xwing-miniatures-font xwing-miniatures-font-trollright"></i>) bearings advance a ship at a tight
+                        curve to one side, sharply changing its facing
+                        by 180&deg;. To achieve this facing, before the
+                        player places the ship at the opposite end of the
+                        template, he rotates the ship 90&deg; to the left for a
+                        Tallon Roll left, or 90&deg; to the right for a Tallon Roll
+                        right. The side of the ship's base must be placed
+                        flush against the end of the maneuver template,
+                        and the end of the template cannot extend
+                        beyond the front or back of the ship's base.
+                    </li>
+                    <li>
+                        <strong>Stationary</strong>: The stationary (<i class="xwing-miniatures-font xwing-miniatures-font-stop"></i>) bearing does
+                        not have a corresponding maneuver template
+                        and is always paired with a speed value of "0"
+                        to indicate that the ship does not move from its
+                        current position.
+                    </li>
+                    <li>
+                        If a ship overlaps another ship while executing
+                        a Koiogran turn or a Segnor's Loop, the ship
+                        does not rotate 180&deg; at the opposite end of the
+                        template. The player places the ship using the
+                        rear guides instead of the front guides.
+                    </li>
+                    <li>
+                        When a ship executes a Tallon Roll, it must avoid
+                        overlapping other ships if possible. If the ship
+                        cannot avoid overlapping another ship, it does not
+                        rotate 90&deg; at the end of the template.
+                    </li>
+                    <li>
+                        A ship that executes a stationary maneuver still
+                        counts as executing a maneuver even though it
+                        does not change position.
+                    </li>
+                </ul>
+                <p>
+                    <strong>Related Topics</strong>: Activation Phase, Difficulty,
+                    Maneuver, Speed, Stress
                 </p>
             </section>
             <section>
@@ -686,9 +1226,9 @@
             </section>
         </article>
     </div>
+    <link rel="stylesheet" href="css/xwing-miniatures.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 
 </html>
