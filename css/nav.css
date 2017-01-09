@@ -42,3 +42,11 @@ h3 {
   font-family: 'PT Sans', sans-serif;
   margin-top: 20px;
 }
+
+.nopadding-two {
+    padding-right:45px !important;
+}
+
+.top-buffer {
+    margin-top:25px;
+}
