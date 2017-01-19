@@ -1,7 +1,24 @@
 @media (max-width: 767px) {
-  body {
-      padding-top: 50px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
-  }
+    body {
+        padding-top: 50px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+}
+
+@media print {
+    .container {
+        width:100%;
+    }
+
+    article {
+        -webkit-column-count:2;
+        -moz-column-count:2;
+        column-count:2;
+    }
+
+    .page-break	{
+        display: block;
+        page-break-before: always;
+    }
 }
 
 body {
@@ -9,8 +26,8 @@ body {
 }
 
 .updates {
-  color: blue;
-  font-style: italic;
+    color: blue;
+    font-style: italic;
 }
 
 .document {
@@ -24,23 +41,23 @@ body {
 }
 
 body {
-  background-color: #dadada;
+    background-color: #dadada;
 }
 
 h1 {
-  font-family: 'PT Sans', sans-serif;
-  font-weight: 700;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
 }
 
 h2 {
-  font-family: 'PT Sans', sans-serif;
-  font-weight: bold;
-  margin-top: 30px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
 }
 
 h3 {
-  font-family: 'PT Sans', sans-serif;
-  margin-top: 20px;
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 20px;
 }
 
 .nopadding-two {
@@ -49,4 +66,27 @@ h3 {
 
 .top-buffer {
     margin-top:25px;
+}
+
+.faq dl {
+    margin: 0;
+    padding: 0;
+}
+
+.faq dt {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.faq dt:before {
+    content: "Q: ";
+}
+
+.faq dd:before {
+    content: "A: ";
+}
+.faq dd {
+    margin: 0 0 1em 0;
+    padding: 0;
 }
